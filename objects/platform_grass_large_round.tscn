@@ -31,4 +31,4 @@ shape = SubResource("ConcavePolygonShape3D_xh0ma")
 visible = false
 
 [node name="Root Scene" parent="." index="5" instance=ExtResource("4_gcfuo")]
-transform = Transform3D(2.44432, 0, -0.524686, 0, 2.5, 0, 0.524686, 0, 2.44432, 0, 0.32994, 0)
+transform = Transform3D(2.44432, 0, -0.524686, 0, 2.5, 0, 0.524686, 0, 2.44432, 0, 0.359656, 0)

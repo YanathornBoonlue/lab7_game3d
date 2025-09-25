@@ -1,5 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bwepp3f361roc"]
+[gd_scene load_steps=3 format=3 uid="uid://bwepp3f361roc"]
 
 [ext_resource type="PackedScene" uid="uid://dtjvjdjl8cs6e" path="res://models/flag.glb" id="1_vjerf"]
+[ext_resource type="Script" uid="uid://bkhwfov4qj3mk" path="res://objects/flag.gd" id="2_2iksx"]
 
 [node name="flag" instance=ExtResource("1_vjerf")]
+script = ExtResource("2_2iksx")
