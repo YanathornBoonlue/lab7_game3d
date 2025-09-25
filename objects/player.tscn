@@ -8,8 +8,8 @@
 [ext_resource type="PackedScene" uid="uid://v2vwxkmygl38" path="res://objects/fish.tscn" id="6_3rerk"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gdq8c"]
-radius = 0.3
-height = 1.0
+radius = 0.36081
+height = 1.06246
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q7stj"]
 diffuse_mode = 2
@@ -40,17 +40,11 @@ scale_curve = SubResource("CurveTexture_f46kd")
 script = ExtResource("1_ffboj")
 
 [node name="Collider" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.612097, -0.028414)
 shape = SubResource("CapsuleShape3D_gdq8c")
 
 [node name="Character" parent="." instance=ExtResource("2_nero3")]
 visible = false
-
-[node name="leg-left" parent="Character/character/root" index="0"]
-transform = Transform3D(0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, 0.965926, 0.125, 0.17625, -0.02375)
-
-[node name="leg-right" parent="Character/character/root" index="1"]
-transform = Transform3D(0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, 0.965926, -0.125, 0.17625, -0.02375)
 
 [node name="torso" parent="Character/character/root" index="2"]
 transform = Transform3D(1, 0, 0, 0, 0.999654, 0.0262765, 0, -0.0262765, 0.999654, -1.80478e-15, 0.17625, -0.02375)
